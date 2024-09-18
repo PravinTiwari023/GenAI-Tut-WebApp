@@ -21,6 +21,7 @@ def app():
 
     # Section: What is LangChain?
     st.header("What is LangChain?")
+    st.image("https://python.langchain.com/v0.2/svg/langchain_stack_062024.svg", caption="LangChain simplifies every stage of the LLM application lifecycle")
     st.write("""
     **LangChain** is a framework that simplifies building applications that leverage large language models (LLMs) like GPT. It allows you to connect LLMs with external data, tools, and services to build sophisticated, real-world applications.
 
