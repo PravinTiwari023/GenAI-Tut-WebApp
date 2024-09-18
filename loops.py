@@ -60,12 +60,12 @@ def app():
     
     # Create a custom prompt template for document-based question answering
     prompt = ChatPromptTemplate.from_template(
-        ""
+        '''
         Answer the following question based only on the provided context:
         <context>
         {context}
         </context>
-        ""
+        '''
     )
     
     # Create a document processing chain that uses the LLM and custom prompt
